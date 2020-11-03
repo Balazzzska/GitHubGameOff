@@ -154,6 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c93db1c3fe28adc44868a28e27eaef5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: -6005109935995519395}
   speed: 2.5
 --- !u!114 &858354095170044592
 MonoBehaviour:
@@ -167,10 +168,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 122ed08892b02d64985d73542bf64958, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cam: {fileID: 2488122864967476285}
   spriteRenderer: {fileID: 5757944592555801406}
   spriteEmemy: {fileID: 21300000, guid: 74db1efc5f2088248b08c46ffcc6367d, type: 3}
   spriteMe: {fileID: 21300000, guid: cab9957915cdd044f9c21f18509b6168, type: 3}
-  camera: {fileID: 2488122864967476285}
 --- !u!50 &-6005109935995519395
 Rigidbody2D:
   serializedVersion: 4
@@ -183,12 +184,12 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.3
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
